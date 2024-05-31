@@ -5,6 +5,13 @@
 3. `npm start` 명령어를 실행합니다.
 4. 브라우저에서 주소창에 http://localhost:3000 을 입력해서 접속합니다.
 
+```bash
+   git clone https://github.com/rachaen/monitoring-client-demo.git
+   cd ./monitoring-client-demo
+   npm install
+   npm start
+```
+
 ## 서버 연결 설정 방법
 
 1. `package.json` 파일의 proxy를 원하는 서버 주소로 설정합니다. `"proxy": "http://desired-server-address"`
